@@ -37,7 +37,7 @@ const Home = () => {
         </Link>
         <Link to="/misc">
             <button className="misc">miscellaneous</button>
-        </Link>
+        </Link>     
         <h2>she's (probably gonna be) your favorite:</h2>
         <br>{currentText}</br>
     </div>

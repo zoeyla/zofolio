@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* This ensures the full height of the viewport is used */
+}
+
+.content {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 50% 50%, #fff6fb, #ffcbfb); /* Circular gradient */
+    font-family: 'Radley'; 
+  }  
+  
+.content .greeting {
+    font-style: italic;
+}
+
+.content .name {
+    color: #9b4819; 
+}
+  
+  .content h1 {
+    font-family: 'Radley';
+    color: #333; 
+    font-size: 4rem; 
+    margin: 0;
+    font-family: 'Radley'; 
+  }
+  
+  button.home {
+    background: none;
+    border: none;
+    color: #B76E79; 
+    font-family: 'Radley'; 
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Radley'; 
+  }
+  
+  button.home:hover {
+    transform: scale(1.1);
+  }
+  
