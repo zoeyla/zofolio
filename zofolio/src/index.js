@@ -10,7 +10,6 @@ import Home from './components/home/Home';
 import LandingPage from './components/home/LandingPage';
 import AboutMe from './components/popups/AboutMe';
 import Fortnite from './components/popups/Fortnite';
-import Misc from './components/popups/Misc';
 import Projects from './components/popups/Projects';
 import Resume from './components/popups/Resume';
 
@@ -23,7 +22,6 @@ root.render(
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/about" element={<AboutMe />} />
         <Route exact path="/fortnite" element={<Fortnite />} />
-        <Route exact path="/misc" element={ <Misc />} />
         <Route exact path="/projects" element={ <Projects />} />
         <Route exact path="/resume" element={ <Resume />} />
       </Routes>
